@@ -34,10 +34,10 @@ dependencies {
     compile project(':arrow-data')
     compile "org.jetbrains.kotlin:kotlin-compiler:$parent.ext.kotlinVersion"
     compile "org.jetbrains.kotlin:kotlin-script-util:$parent.ext.kotlinVersion"
-    compile group: 'org.beanshell', name: 'bsh', version: '2.0b5'
+    compile "org.apache-extras.beanshell:bsh:2.0b6"
     kapt project(':arrow-annotations-processor')
 //
 //    testCompile "junit:junit:$parent.ext.junit_version"
 }
 
-//apply from: '../gradle-mvn-push.gradle'
+apply from: rootProject.file('gradle/gradle-mvn-push.gradle')

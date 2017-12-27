@@ -1,5 +1,5 @@
 @file:JvmName("main")
-package io.kategory.ank
+package io.arrow.ank
 
 import arrow.Either
 import arrow.ListKW
